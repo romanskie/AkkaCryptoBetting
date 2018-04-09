@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ScalaBetting</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="@routes.Assets.versioned("style.css")">
+        <link rel="stylesheet" href="https://www.mirror-munich.de/assets/css/private/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.highcharts.com/stock/5.0.14/js/highstock.js"></script>
+        <script src="https://code.highcharts.com/stock/5.0.14/js/modules/exporting.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    </head>
+    <body>
+        @scalajs.html.scripts("client", routes.Assets.versioned(_).toString, name => getClass.getResource(s"/public/$name") != null)
+    </body>
+</html>

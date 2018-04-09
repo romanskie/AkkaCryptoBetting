@@ -1,0 +1,70 @@
+@import 'https://code.highcharts.com/css/highcharts.css';
+
+body {
+    background-image: url("landing.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+html,
+body,
+.block,
+.login-box {
+    height: 100%;
+}
+
+
+.login-box {
+    margin-top: 10%;
+}
+
+.col {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+.nav-wrapper  {
+    padding-left: 10px;
+    border-bottom: #151f25;
+}
+
+.highcharts-background {
+    /* fill: transparent; */
+}
+
+.card-panel {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #cfd8dc;
+}
+
+#messages {
+    overflow-y: scroll;
+    height: 75vh;
+}
+
+#messages::-webkit-scrollbar {
+    display: none;
+}
+
+
+#toast-container {
+    top: 8%;
+    right: auto !important;
+    bottom: auto !important;
+    left: 2%;
+}
+
+
+.highcharts-background {
+    /* fill: transparent; */
+}
+
+.highcharts-data-label text {
+    color: white;
+}

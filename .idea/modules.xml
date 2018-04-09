@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client-build.iml" filepath="$PROJECT_DIR$/.idea/modules/client-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaCoinBetting-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaCoinBetting-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacoinbetting.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacoinbetting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacoinbetting-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacoinbetting-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-build.iml" filepath="$PROJECT_DIR$/.idea/modules/server-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedJS.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedJS-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedJVM-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedJVM-build.iml" />
+    </modules>
+  </component>
+</project>

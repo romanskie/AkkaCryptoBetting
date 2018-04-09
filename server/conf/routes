@@ -1,0 +1,27 @@
+GET        /socket                       controllers.SocketController.socket
+GET        /chat                         controllers.SocketController.chat
+GET        /cryptoPriceSubscription      controllers.SocketController.cryptoPrice
+
+GET        /betting/bet/:betId           controllers.BettingController.getBetById(betId: Long)
+GET        /betting/bets                 controllers.BettingController.getBets
+GET        /betting/bets/running         controllers.BettingController.getRunningBets
+GET        /betting/bets/closed          controllers.BettingController.getClosedBets
+POST       /betting/bet                  controllers.BettingController.createBet
+PATCH      /betting/bet/join             controllers.BettingController.joinBet
+
+GET        /betting/topics               controllers.BettingController.getBettingTopics
+GET        /betting/categories           controllers.BettingController.getBettingCategories
+
+
+
+POST        /user/login                  controllers.UserController.login
+POST        /user/logout                 controllers.UserController.logout
+GET         /user/users                  controllers.UserController.getUsers
+
+GET         /stats/all                   controllers.UserController.getAllBetStats
+GET         /stats/user/:userId          controllers.UserController.getBetStatsByUserId(userId: Long)
+GET         /stats/bet/:betId            controllers.UserController.getBetStatsByBetId(betId: Long)
+
+GET         /                            controllers.ApplicationController.index
+GET         /assets/*file                controllers.Assets.at(file)
+GET         /versionedAssets/*file       controllers.Assets.versioned(path="/public", file: Asset)
